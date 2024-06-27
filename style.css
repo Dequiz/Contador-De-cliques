@@ -1,0 +1,46 @@
+.container{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.botoes{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 10px;
+}
+.botaoAumentar{
+    background-color: rgb(63, 204, 134);
+    height: 50px;
+    width: 100px;
+    align-self: center;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.botaoDiminuir{
+    background-color: rgb(168, 50, 35);
+    height: 50px;
+    width: 100px;
+    align-self: center;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+.contador{
+    font-size:70px;
+}
